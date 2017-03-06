@@ -3,18 +3,19 @@
 - Total Points : `100`
 - Deadline : `March 6th, 11:59 PM`
 - Submission type : `Markdown document + Ipynb Notebook`
-
+what data you had, how you obtained it, how is it stored, what analysis have you done, what information did you get etc etc.
 ---
 
-### Question 1 : (45 Points)
+### Question 1
 
-> Using Enron data-set, perform **3**  analysis.
+**`Dataset : The enron data-set` Available at [CMU Enron data 1.82 GB tgz file]**
+> Analysis 1. What did the emails talk about
+- What did the emails say according to their subjects?
+#### Collected data
 
-**15 points per analysis**
 
-#### Instructions :
-- [Enron Scandal Summary](http://www.investopedia.com/updates/enron-scandal-summary/) - Link to Investopedia article to get a brief summary about the what the scandal was.
-- The enron data-set is available at [CMU Enron data 1.82 GB tgz file](https://www.cs.cmu.edu/~./enron/enron_mail_20150507.tgz) . 
+#### Conclusion
+(https://www.cs.cmu.edu/~./enron/enron_mail_20150507.tgz) . 
 - **`You do not need to upload this data in your repository`**.  TA will have their own local copy of the  data at `~/midterm/data/enron/maildir/*`. So use this relative path for storing your data.
 ```sh
 $ mkdir -p ~/midterm/data/enron/
