@@ -6,6 +6,7 @@ hat data you had, how you obtained it, how is it stored, what analysis have you 
 ### Question 1
 
 `**Dataset : The enron data-set**`
+
 `Collected all the files under the directory enron/maildir and created a list with all the parsed emails`
 
 > **Analysis 1. What did the emails talk about**
