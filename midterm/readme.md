@@ -118,12 +118,12 @@ Words about Obama : trump obama say new white house russia rule fact
 
 --
 
-> **Analysis 3. Who were mentioned the most**
+> **Analysis 3. Who were mentioned the most in Jan**
 
 - **Count the keywords if they are described as 'persons'**
 
 ##### Collected data:
-The names appearing in the keywords.
+The names appearing in the keywords from articles of Jan.
 
 ##### Conclusion:
 Top 3:
