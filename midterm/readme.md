@@ -5,7 +5,7 @@ hat data you had, how you obtained it, how is it stored, what analysis have you 
 
 ### Question 1
 
-**`Dataset : The enron data-set` **
+**`Dataset : The enron data-set`**
 
 > **Analysis 1. What did the emails talk about**
 
@@ -19,53 +19,53 @@ hat data you had, how you obtained it, how is it stored, what analysis have you 
 
 - What did the emails say according to their contents?
 
-#### Collected data
+##### Collected data
 
 
-#### Conclusion
+##### Conclusion
 
 > Analysis 2. When did people send emails
 
 - In which years were the emails sent?
 
-#### Collected data
+##### Collected data
 
 
-#### Conclusion
+##### Conclusion
 
 
 - On which weekdays were the emails sent?
 
-#### Collected data
+##### Collected data
 
 
-#### Conclusion
+##### Conclusion
 
 
 - In which months were the emails sent?
 
-#### Collected data
+##### Collected data
 
 
-#### Conclusion
+##### Conclusion
 
 
 > Analysis 3. Who communicated via emails the most
 
 - Who had the most emails?
 
-#### Collected data
+##### Collected data
 
 
-#### Conclusion
+##### Conclusion
 
 
 - Which two accounts communicated with each other the most?
 
-#### Collected data
+##### Collected data
 
 
-#### Conclusion
+##### Conclusion
 
 
 ---
