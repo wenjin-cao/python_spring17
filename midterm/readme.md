@@ -1,6 +1,4 @@
 # Midterm Exam - Spring 2017 
-
-hat data you had, how you obtained it, how is it stored, what analysis have you done, what information did you get etc etc.
 ---
 
 ### Question 1
@@ -67,7 +65,8 @@ Top 1 sender/receiver pair : 4308 emails were sent from vince.kaminski@enron.com
 
 ### Question 2
 
-**`Dataset : The NYT data-set` **
+
+**`Dataset : The NYT data-set`**
 
 
 > **Collected data**
@@ -75,12 +74,14 @@ Top 1 sender/receiver pair : 4308 emails were sent from vince.kaminski@enron.com
 - 1000 articles about HILLARY CLINTON since 20170101, stored in json file output2_hillary_clinton 
 - 1000 articles about BARACK OBAMA since 20170101, stored in json file output3_barack_obama- All articles published in Jan, stored in json file output_archive_201701
 
-> **Analysis 1. Were the article neutral towards Trump?**
+
+> **Analysis 1. Were the articles neutral towards Trump?**
 
 - **Sentiment analysis on the subjects of the articles**
 
 ##### Collected data
 The subjects extracted from the keywords of the articles about Donald Trump.(Using AFINN-en-165 as a sentiment dictionary in order to give the NLTK tokenized words sentiment scores)
+
 ##### Conclusion
 No negative words were found. One positive word 'asset' were found. According to that, the articles about trump were neutral in subjects.
 
@@ -88,7 +89,8 @@ No negative words were found. One positive word 'asset' were found. According to
 
 - **Create WordCloud on Trump, Hillary, Obama Respectively**
 ##### Collected data
-The headlines of the articles about Trump/Hillary/Obama
+The headlines of the articles about Trump/Hillary/Obama.
+
 ##### Conclusion
 Plotted a picture using wordcloud to visualize the important words. (See Q2_NYT.ipynb)
 Words about Trump : donald trump new ban president immigration inauguration
@@ -97,10 +99,11 @@ Words about Obama : trump obama say new white house russia rule fact
 
 > **Analysis 3. Who were mentioned the most**
 
-- **Count the keywords if they are described as 'persons' **
+- **Count the keywords if they are described as 'persons'**
 
 ##### Collected data
-The Names Appearing In The Keywords.
+The names appearing in the keywords.
+
 ##### Conclusion
 Top 3:
 "Trump Donald J" were mentions 985 times.
