@@ -7,9 +7,7 @@ hat data you had, how you obtained it, how is it stored, what analysis have you 
 
 **`Dataset : The enron data-set`**
 
-> **Analysis 1.**
-
-> **What did the emails talk about**
+> **Analysis 1. What did the emails talk about**
 
 - What did the emails say according to their subjects?
 
@@ -26,7 +24,7 @@ hat data you had, how you obtained it, how is it stored, what analysis have you 
 
 ##### Conclusion
 
-> Analysis 2. When did people send emails
+> **Analysis 2. When did people send emails**
 
 - In which years were the emails sent?
 
@@ -52,7 +50,7 @@ hat data you had, how you obtained it, how is it stored, what analysis have you 
 ##### Conclusion
 
 
-> Analysis 3. Who communicated via emails the most
+> **Analysis 3. Who communicated via emails the most**
 
 - Who had the most emails?
 
@@ -78,7 +76,7 @@ hat data you had, how you obtained it, how is it stored, what analysis have you 
 
 > Collected data
 > 
-> Analysis 1. What did the emails talk about
+> **Analysis 1. What did the emails talk about**
 
 - What did the emails say according to their subjects?
 
@@ -95,7 +93,7 @@ hat data you had, how you obtained it, how is it stored, what analysis have you 
 
 #### Conclusion
 
-> Analysis 2. When did people send emails
+> **Analysis 2. When did people send emails**
 
 - In which years were the emails sent?
 
@@ -121,7 +119,7 @@ hat data you had, how you obtained it, how is it stored, what analysis have you 
 #### Conclusion
 
 
-> Analysis 3. Who communicated via emails the most
+> **Analysis 3. Who communicated via emails the most**
 
 - Who had the most emails?
 
