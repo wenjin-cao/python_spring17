@@ -20,7 +20,9 @@ Plotted a picture using wordcloud to visualize the important words. (See Q1_Enro
 The contents(payload) of the emails.
 ##### Conclusion:
 Plotted a picture using wordcloud to visualize the important words. (See Q1_Enron.ipynb)
+
 --
+
 > **Analysis 2. When did people send emails**
 
 - **In which years were the emails sent?**
