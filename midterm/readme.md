@@ -8,9 +8,9 @@ what data you had, how you obtained it, how is it stored, what analysis have you
 
 ### Question 1
 
-**`Dataset : The enron data-set` Available at [CMU Enron data 1.82 GB tgz file]**
+**`Dataset : The enron data-set` **
 
-> Analysis 1. What did the emails talk about
+> **Analysis 1. What did the emails talk about**
 
 - What did the emails say according to their subjects?
 
