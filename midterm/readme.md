@@ -98,7 +98,7 @@ No negative words were found. One positive word 'asset' were found. According to
 
 > **Analysis 2. What did the articles talk about**
 
-- **Create WordCloud on Trump, Hillary, Obama Respectively**
+- **Create wordcloud on Trump, Hillary, Obama respectively**
 
 ##### Collected data:
 The headlines of the articles about Trump/Hillary/Obama.
