@@ -79,7 +79,8 @@ Top 1 sender/receiver pair : 4308 emails were sent from vince.kaminski@enron.com
 
 - 1000 articles about DONALD TRUMP since 20170101, stored in json file output1_donald_trump 
 - 1000 articles about HILLARY CLINTON since 20170101, stored in json file output2_hillary_clinton 
-- 1000 articles about BARACK OBAMA since 20170101, stored in json file output3_barack_obama- All articles published in Jan, stored in json file output_archive_201701
+- 1000 articles about BARACK OBAMA since 20170101, stored in json file output3_barack_obama
+- All articles published in Jan, stored in json file output_archive_201701
 
 --
 
