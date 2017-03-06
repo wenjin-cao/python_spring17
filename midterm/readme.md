@@ -1,9 +1,11 @@
 # Midterm Exam - Spring 2017 
-
+---
 ### Question 1
 
 **`Dataset : The enron data-set`**
 `Collected all the files under the directory enron/maildir and created a list with all the parsed emails`
+
+--
 
 > **Analysis 1. What did the emails talk about**
 
@@ -46,6 +48,8 @@ The months extracted from date of the emails.
 ##### Conclusion:
 As shown in the histogram, the top three months are Oct, Sep, Jan.
 
+--
+
 > **Analysis 3. Who communicated via emails the most**
 
 - **Who had the most emails?**
@@ -77,6 +81,7 @@ Top 1 sender/receiver pair : 4308 emails were sent from vince.kaminski@enron.com
 - 1000 articles about HILLARY CLINTON since 20170101, stored in json file output2_hillary_clinton 
 - 1000 articles about BARACK OBAMA since 20170101, stored in json file output3_barack_obama- All articles published in Jan, stored in json file output_archive_201701
 
+--
 
 > **Analysis 1. Were the articles neutral towards Trump?**
 
@@ -87,6 +92,8 @@ The subjects extracted from the keywords of the articles about Donald Trump.(Usi
 
 ##### Conclusion:
 No negative words were found. One positive word 'asset' were found. According to that, the articles about trump were neutral in subjects.
+
+--
 
 > **Analysis 2. What did the articles talk about**
 
@@ -104,6 +111,7 @@ Words about Hillary : trump russia new election say white house
 
 Words about Obama : trump obama say new white house russia rule fact 
 
+--
 
 > **Analysis 3. Who were mentioned the most**
 
