@@ -9,12 +9,140 @@ what data you had, how you obtained it, how is it stored, what analysis have you
 ### Question 1
 
 **`Dataset : The enron data-set` Available at [CMU Enron data 1.82 GB tgz file]**
+
 > Analysis 1. What did the emails talk about
+
 - What did the emails say according to their subjects?
+
 #### Collected data
 
 
 #### Conclusion
+
+
+- What did the emails say according to their contents?
+
+#### Collected data
+
+
+#### Conclusion
+
+> Analysis 2. When did people send emails
+
+- In which years were the emails sent?
+
+#### Collected data
+
+
+#### Conclusion
+
+
+- On which weekdays were the emails sent?
+
+#### Collected data
+
+
+#### Conclusion
+
+
+- In which months were the emails sent?
+
+#### Collected data
+
+
+#### Conclusion
+
+
+> Analysis 3. Who communicated via emails the most
+
+- Who had the most emails?
+
+#### Collected data
+
+
+#### Conclusion
+
+
+- Which two accounts communicated with each other the most?
+
+#### Collected data
+
+
+#### Conclusion
+
+
+---
+
+### Question 2
+
+**`Dataset : The NYT data-set` **
+
+> Collected data
+> 
+> Analysis 1. What did the emails talk about
+
+- What did the emails say according to their subjects?
+
+#### Collected data
+
+
+#### Conclusion
+
+
+- What did the emails say according to their contents?
+
+#### Collected data
+
+
+#### Conclusion
+
+> Analysis 2. When did people send emails
+
+- In which years were the emails sent?
+
+#### Collected data
+
+
+#### Conclusion
+
+
+- On which weekdays were the emails sent?
+
+#### Collected data
+
+
+#### Conclusion
+
+
+- In which months were the emails sent?
+
+#### Collected data
+
+
+#### Conclusion
+
+
+> Analysis 3. Who communicated via emails the most
+
+- Who had the most emails?
+
+#### Collected data
+
+
+#### Conclusion
+
+
+- Which two accounts communicated with each other the most?
+
+#### Collected data
+
+
+#### Conclusion
+
+
+
+
+
 (https://www.cs.cmu.edu/~./enron/enron_mail_20150507.tgz) . 
 - **`You do not need to upload this data in your repository`**.  TA will have their own local copy of the  data at `~/midterm/data/enron/maildir/*`. So use this relative path for storing your data.
 ```sh
