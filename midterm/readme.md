@@ -16,6 +16,8 @@ The subjects of the emails.
 ##### Conclusion:
 Plotted a picture using wordcloud to visualize the important words. (See Q1_Enron.ipynb)
 
+Important words : enron meeting agreement new report energy power
+
 - **What did the emails say according to their contents?**
 
 ##### Collected data:
@@ -23,6 +25,7 @@ The contents(payload) of the emails.
 ##### Conclusion:
 Plotted a picture using wordcloud to visualize the important words. (See Q1_Enron.ipynb)
 
+Important words : enron com ect hou power thank corp
 --
 
 > **Analysis 2. When did people send emails**
