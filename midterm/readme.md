@@ -75,6 +75,9 @@ Top 1 sender/receiver pair : 4308 emails were sent from vince.kaminski@enron.com
 - 1000 articles about BARACK OBAMA since 20170101, stored in json file output3_barack_obama- All articles published in Jan, stored in json file output_archive_201701
 
 
+
+
+
 > **Analysis 1. Were the articles neutral towards Trump?**
 
 - **Sentiment analysis on the subjects of the articles**
@@ -85,7 +88,7 @@ The subjects extracted from the keywords of the articles about Donald Trump.(Usi
 ##### Conclusion
 No negative words were found. One positive word 'asset' were found. According to that, the articles about trump were neutral in subjects.
 
-> **Analysis 2. When did the articles talk about**
+> **Analysis 2. What did the articles talk about**
 
 - **Create WordCloud on Trump, Hillary, Obama Respectively**
 ##### Collected data
@@ -93,9 +96,13 @@ The headlines of the articles about Trump/Hillary/Obama.
 
 ##### Conclusion
 Plotted a picture using wordcloud to visualize the important words. (See Q2_NYT.ipynb)
+
 Words about Trump : donald trump new ban president immigration inauguration
+
 Words about Hillary : trump russia new election say white house
+
 Words about Obama : trump obama say new white house russia rule fact 
+
 
 > **Analysis 3. Who were mentioned the most**
 
@@ -106,6 +113,9 @@ The names appearing in the keywords.
 
 ##### Conclusion
 Top 3:
+
 "Trump Donald J" were mentions 985 times.
+
 "Obama, Barack" were mentions 148 times.
+
 "Putin, Vladimir V" were mentions 41 times.
