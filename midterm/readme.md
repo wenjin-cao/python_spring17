@@ -5,46 +5,46 @@ hat data you had, how you obtained it, how is it stored, what analysis have you 
 
 ### Question 1
 
-`**Dataset : The enron data-set**
-Collected all the files under the directory enron/maildir and created a list with all the parsed emails
-`
+`**Dataset : The enron data-set**`
+`Collected all the files under the directory enron/maildir and created a list with all the parsed emails`
+
 > **Analysis 1. What did the emails talk about**
 
-- What did the emails say according to their subjects?
+- **What did the emails say according to their subjects?**
 
-##### Collected data
-Subjects of the emails.
-##### Conclusion
+##### Collected data:
+The subjects of the emails.
+##### Conclusion:
 Plotted a picture using wordcloud highlighting the important words. (See Q1_Enron.ipynb)
 
-- What did the emails say according to their contents?
+- **What did the emails say according to their contents?**
 
-##### Collected data
+##### Collected data:
 Contents(payload) of the emails.
-##### Conclusion
+##### Conclusion:
 Plotted a picture using wordcloud highlighting the important words. (See Q1_Enron.ipynb)
 
 > **Analysis 2. When did people send emails**
 
-- In which years were the emails sent?
+- **In which years were the emails sent?**
 
-##### Collected data
+##### Collected data:
 Extracted the years using the date of the emails.
-##### Conclusion
+##### Conclusion:
 As shown in the histogram, most of the emails were sent in year 2000 (196101 emails) and 2001 (272819 emails).
 
-- On which weekdays were the emails sent?
+- **On which weekdays were the emails sent?**
 
-##### Collected data
+##### Collected data:
 Extracted the weekdays using the date of the emails.
-##### Conclusion
+##### Conclusion:
 As shown in the histogram, most of the emails weren't sent on weekends.
 
-- In which months were the emails sent?
+- **In which months were the emails sent?**
 
-##### Collected data
+##### Collected data:
 Extracted the months using the date of the emails.
-##### Conclusion
+##### Conclusion:
 As shown in the histogram, the top three months are Oct, Sep, Jan.
 
 > **Analysis 3. Who communicated via emails the most**
