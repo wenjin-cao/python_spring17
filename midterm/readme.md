@@ -1,9 +1,6 @@
 # Midterm Exam - Spring 2017 
 
-- Total Points : `100`
-- Deadline : `March 6th, 11:59 PM`
-- Submission type : `Markdown document + Ipynb Notebook`
-what data you had, how you obtained it, how is it stored, what analysis have you done, what information did you get etc etc.
+hat data you had, how you obtained it, how is it stored, what analysis have you done, what information did you get etc etc.
 ---
 
 ### Question 1
@@ -14,10 +11,10 @@ what data you had, how you obtained it, how is it stored, what analysis have you
 
 - What did the emails say according to their subjects?
 
-#### Collected data
+##### Collected data
 
 
-#### Conclusion
+##### Conclusion
 
 
 - What did the emails say according to their contents?
