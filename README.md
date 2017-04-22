@@ -1,1 +1,2 @@
-# INFO7374-Python Spring 2017
+## INFO7374 Python 
+#### Spring 2017
