@@ -4,7 +4,7 @@
 > ## Analysis 01 General Feature Analysis
 
 ### Original dataframe:
-![](https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/movies.png =x5)
+![](https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/movies.png =10x5)
 ![](https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/ratings.png)
 
 ###  I. What are the release dates like for the movies?
