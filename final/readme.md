@@ -112,14 +112,23 @@
 #### Some genres tend to be prefered by certain occupations. E.g., 'adventure' and 'thriller' movies are more welcome among lawyers, 'sci-fi' are liked better by artists. Likewise, certain occupations have certain preference. E.g., besides the commonly popular genres, salespeople also like 'adventure', doctors 'thriller', executives 'sci-fi'.
 <img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0405AvgRatingHeatmap.png" height="550">
 
-
-
 ---
 
 > ## Analysis 05 Movie Recommendation Analysis
+### I. What are the recommended movies given a certain movie?
+#### To compute similarities between movies, find the correlation between movies and then use that correlation to find similar movies to those the users have liked.
+#### Calculate the correlation coefficient between each movie pair based on the ratings.
+#### Build a recommender system using collaborative filtering to get the top 5(or less) recommended movies in the dataset. For each movie, return top 5 similar movies that have a high correlation coefficent with it. These recommendations can also be used to recommend movies to users.
+<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/05recommendation.png" height="200">
 
+### II. How to recommend movies to a given user?
+#### Based on the ratings of the movies, create a matrix with a user per row and a movie per column
+<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/05ratingMatrix.png" height="200">
 
-
+#### To find similarities between movies, use the built-in function numpy.corrcoef() to calculates the Pearson Product Moment Correlation Coefficient between each movie pair. 
+#### To provide recommendations to a user, take the list of movies that user has rated. Sum the correlations of those movies with all the other ones and return a list of those movies sorted by their total correlation with that user.
+#### Below shows how the recommender system works.
+<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/05moviesForUser.png" height="200">
 
 
 
