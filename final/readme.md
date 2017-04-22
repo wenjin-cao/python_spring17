@@ -58,9 +58,57 @@
 <img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/02genderDiff.png" height="150">
 
 #### Now we only look at the 100 most rated movies. Plot a 'barh' graph depicting the rating difference by gender of each movie. As we can see, the differences in rating by gender are less notable than by age group. Among these movies, Sound Of Musice is particularly prefered by females, and 2001 A Space Odyssey is particularly prefered by males.
-<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/02genderDiff.png" height="550">
+<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0203RatingDifferenceByGender.png" height="550">
 
 ---
+
+> ## Analysis 03 User Occupation Analysis
+
+###  I. How are occupations distributed amongst the users?
+#### Group the users by occupations and count the numberbs. As shown in the pie chart below, the users in the dataset comes from 19 specified occupations. Students account for 20% of the users, which makes the biggest occupation group. Nearly half of the users are students or educators or administrators.
+<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0301OccupationPercentage.png" height="150">
+
+### II. How is the gender bias like in each profession?
+#### For each occupation, count the number the female users and the number of male users. As we can see in the stacked bar char below, in most of the occupations, there are more male users than female users. And this difference tends to be more remarkable when it comes to occupations with less people totally, such as the occupation 'technician', 'scientist', 'retired', 'entertainment'.
+<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0302UsersCountOfEachOccupation.png" height="150">
+
+#### To observe the difference in gender more clearly, calculate the percentage of males and females for each occupation. As is shown below, 'librarian', ' artist' and 'adminitrator' have the most balanced users with respect to gender, while 'doctor', 'engineer', 'technician' the least. 
+<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0303Female&MalePercentageOfEachOccupation.png" height="150">
+
+### III. How 'old' is each profession?
+#### For each occupation, calculate the average age. As we can see, the 'oldest' occupations are 'retired', 'doctor', 'educator'. The 'youngest' occupations are 'student', 'entertainment', 'artist'.
+Most of the occupations are in age range 20-40.
+<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0304AvgAge.png" height="150">
+
+#### The violin plot shows the age distribution for each occupation more vividly.
+<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0305AgeDistributionAmongOccupations.png" height="150">
+
+### IV. Do users from different professions tend to rate movies differently?
+#### Use a violin plot to depict the distribution of ratings among professions.
+<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0306RatingDistributionAmongOccupations.png" height="150">
+
+#### For each occupation, calculate the average rating using groupby() and aggregation function.
+<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0307AvgRatingOfEachOccupation.png" height="150">
+
+#### According to the graphs, there's only slight differences in avg. ratings with respect to occupations. Yet we can still tell that healthcare people tend to rate movies the lowest and lawyers tend to rate the highest. 
+
+---
+
+> ## Analysis 03 User Occupation Analysis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
