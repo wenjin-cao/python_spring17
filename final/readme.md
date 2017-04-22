@@ -6,7 +6,7 @@
 ###  I. What are the release dates like for the movies?
 
 #### Original dataframe:
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/movies01.png)
 
 
 
