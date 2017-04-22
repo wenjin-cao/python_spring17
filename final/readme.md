@@ -66,41 +66,42 @@
 
 ###  I. How are occupations distributed amongst the users?
 #### Group the users by occupations and count the numberbs. As shown in the pie chart below, the users in the dataset comes from 19 specified occupations. Students account for 20% of the users, which makes the biggest occupation group. Nearly half of the users are students or educators or administrators.
-<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0301OccupationPercentage.png" height="200">
+<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0301OccupationPercentage.png" height="400">
 
 ### II. How is the gender bias like in each profession?
 #### For each occupation, count the number the female users and the number of male users. As we can see in the stacked bar char below, in most of the occupations, there are more male users than female users. And this difference tends to be more remarkable when it comes to occupations with less people totally, such as the occupation 'technician', 'scientist', 'retired', 'entertainment'.
-<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0302UsersCountOfEachOccupation.png" height="200">
+<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0302UsersCountOfEachOccupation.png" height="400">
 
 #### To observe the difference in gender more clearly, calculate the percentage of males and females for each occupation. As is shown below, 'librarian', ' artist' and 'adminitrator' have the most balanced users with respect to gender, while 'doctor', 'engineer', 'technician' the least. 
-<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0303Female&MalePercentageOfEachOccupation.png" height="200">
+<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0303Female&MalePercentageOfEachOccupation.png" height="400">
 
 ### III. How 'old' is each profession?
 #### For each occupation, calculate the average age. As we can see, the 'oldest' occupations are 'retired', 'doctor', 'educator'. The 'youngest' occupations are 'student', 'entertainment', 'artist'. And the majority of the occupations are in age range 20-40.
-<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0304AvgAge.png" height="200">
+<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0304AvgAge.png" height="400">
 
 #### The violin plot shows the age distribution for each occupation more vividly.
-<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0305AgeDistributionAmongOccupations.png" height="200">
+<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0305AgeDistributionAmongOccupations.png" height="400">
 
 ### IV. Do users from different professions tend to rate movies differently?
 #### Use a violin plot to depict the distribution of ratings among professions.
-<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0306RatingDistributionAmongOccupations.png" height="200">
+<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0306RatingDistributionAmongOccupations.png" height="400">
 
 #### For each occupation, calculate the average rating using groupby() and aggregation function.
-<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0307AvgRatingOfEachOccupation.png" height="200">
+<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0307AvgRatingOfEachOccupation.png" height="400">
 
 #### According to the graphs, there's only slight differences in avg. ratings with respect to occupations. Yet we can still tell that healthcare people tend to rate movies the lowest and lawyers tend to rate the highest. 
 
 ---
 
-> ## Analysis 03 User Occupation Analysis
+> ## Analysis 04 Movie Genre Analysis
+### I. How do the movies vary with respect to genres?
+#### For each genre, count the number of movies beloging to it. As we can see from the graph below, counts of movies of each genre vary greatly. The genre 'drama' has the most movies while 'fantasy' has the least. According the count of movies, the 3 most popular genres are 'drama', 'comedy', ' thriller', and the 3 least popular genres are 'fantasy', 'film noir', 'western'. P.S. Movies in the data may have multiple genres.
+<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0401MoviesCountOfEachGenre.png" height="400">
 
+#### For each genre, count the average rating of movies beloging to it.Plot and compare the avg. ratings. Then in order to be convincible, we only consider genres of which movies have at least 100 ratings.As we can see from the image below, 'drama' has the highest average rating, while 'children' the lowest. Yet, generally speaking, ratings don't differ much among different genres.
+<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0403AvgRatingOfEachGenre(ignoringSmallSampleSizes).png" height="400">
 
-
-
-
-
-
+### II. How does the gender affect the rating of movies in each genre?
 
 
 
