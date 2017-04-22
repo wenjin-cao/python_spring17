@@ -1,83 +1,25 @@
 
-# Midterm Exam - Spring 2017 
----
-### Question 1
+# MovieLens Dataset Analysis
 
-**`Dataset : The enron data-set`**
-`Collected all the files under the directory enron/maildir and created a list with all the parsed emails`
+### Analysis01 General Features
 
---
+> **I. What are the release dates like for the movies?**
 
-> **Analysis 1. What did the emails talk about**
+#### Original dataframe:
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
-- **What did the emails say according to their subjects?**
 
-##### Collected data:
-The subjects of the emails.
-##### Conclusion:
-Plotted a picture using wordcloud to visualize the important words. (See Q1_Enron.ipynb)
 
-Important words : enron meeting agreement new report energy power...
-
-- **What did the emails say according to their contents?**
+> **II. What are the 5 MOST RATED movies?**
 
 ##### Collected data:
-The contents(payload) of the emails.
-##### Conclusion:
-Plotted a picture using wordcloud to visualize the important words. (See Q1_Enron.ipynb)
-
-Important words : enron com ect hou power thank corp...
-
---
-
-> **Analysis 2. When did people send emails**
-
-- **In which years were the emails sent?**
-
-##### Collected data:
-The years extracted from date of the emails.
-##### Conclusion:
-As shown in the histogram, most of the emails were sent in year 2000 (196101 emails) and 2001 (272819 emails).
-
-- **On which weekdays were the emails sent?**
-
-##### Collected data:
-The weekdays extracted from date of the emails.
-##### Conclusion:
-As shown in the histogram, most of the emails weren't sent on weekends.
-
-- **In which months were the emails sent?**
-
-##### Collected data:
-The months extracted from date of the emails.
-##### Conclusion:
-As shown in the histogram, the top three months are Oct, Sep, Jan.
-
---
 
 > **Analysis 3. Who communicated via emails the most**
 
-- **Who had the most emails?**
-
-##### Collected data:
-The X-origin of the emails.
-##### Conclusion:
-Kaminski-V had the most emails (26995 emails).
-
-- **Which two accounts communicated with each other the most?**
-
-##### Collected data:
-The 'from' and 'to' of the emails. (Neglecting the emails people sent to themselves)
-##### Conclusion:
-Top 1 sender/receiver pair : 4308 emails were sent from vince.kaminski@enron.com to vkaminski@aol.com
 
 ---
 
-### Question 2
-
-
-**`Dataset : The NYT data-set`**
-
+### Analysis02
 
 > **Collected data**
 
