@@ -76,8 +76,7 @@
 <img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0303Female&MalePercentageOfEachOccupation.png" height="150">
 
 ### III. How 'old' is each profession?
-#### For each occupation, calculate the average age. As we can see, the 'oldest' occupations are 'retired', 'doctor', 'educator'. The 'youngest' occupations are 'student', 'entertainment', 'artist'.
-Most of the occupations are in age range 20-40.
+#### For each occupation, calculate the average age. As we can see, the 'oldest' occupations are 'retired', 'doctor', 'educator'. The 'youngest' occupations are 'student', 'entertainment', 'artist'. And the majority of the occupations are in age range 20-40.
 <img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/0304AvgAge.png" height="150">
 
 #### The violin plot shows the age distribution for each occupation more vividly.
