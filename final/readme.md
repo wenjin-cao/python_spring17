@@ -11,7 +11,7 @@
 #### Extract 'release_year' from 'release_date'. The range of 'release_year' is from 1920 to 2000.
 #### Use pandas cut() function to convert 'year' to 'year group'. The width of each bin is 10 years.
 #### Count numbers of movies grouped by 'year group' and plot.
-<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/01MovieDistributionByYear.png" height="250">
+<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/01MovieDistributionByYearGroup.png" height="250">
 
 #### As shown in the image, the majority of the movies were released between the year 1970 and 2000. 
 
@@ -23,7 +23,7 @@
 #### The movies in the dataset that have most ratings are : 
 <img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/01mostRated.png" height="150">
 
-#### Get an api key from https://www.themoviedb.org and use the 'IMDB url' of the above movies to request and display their posters. e.g.
+#### Get an api key from https://www.themoviedb.org and use the 'IMDB url' of the above movies to request and display their posters. E.g.
 <img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/01poster1.png" height="200">
 
 ### III. What are the 5 MOST HIGHLY RATED movies?
@@ -33,7 +33,6 @@
 <img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/01highlyRated.png" height="150">
 
 #### Display the posters of these movies. e.g.
-<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/01poster2.png" height="200">
 <img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/01poster2.png" height="200">
 
 ---
