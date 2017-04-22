@@ -4,9 +4,8 @@
 > ## Analysis 01 General Feature Analysis
 
 ### Original dataframe:
-![drawing](https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/movies.png =10x5)
-![drawing](https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/ratings.png)
-<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/movies.png" height="10">
+<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/movies.png" height="150">
+<img src="https://github.com/wenjin-cao/python_spring17/blob/master/final/pics/ratings.png" height="150">
 
 ###  I. What are the release dates like for the movies?
 #### Extract 'release_year' from 'release_date'. The range of 'release_year' is from 1920 to 2000.
